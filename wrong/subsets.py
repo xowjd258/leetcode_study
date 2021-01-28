@@ -4,7 +4,7 @@ class Solution:
         li = []
         temp = []
      
-        for j in range(len(nums)-1):
+        for j in range(len(nums)):
             for i in range(j,len(nums)):          
                 temp.append(nums[i])
                 li.append(temp[:])
